@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Home View"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_below="@id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Play"
+        android:layout_alignParentLeft="true"
+        android:background="#A1E455"
+        android:textColor="#FFFFFF"
+        android:id="@+id/play"
+        android:onClick= "pressHomeButton"/>
+
+    <Button
+        android:layout_below="@id/username"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Learn"
+        android:background="#69B5D1"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@id/play"
+        android:id="@+id/learn"
+        android:onClick= "pressHomeButton"/>
+
+    <Button
+        android:layout_below="@id/username"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:background="#EF9598"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@id/learn"
+        android:textColor="#FFFFFF"
+        android:id="@+id/connect"
+        android:onClick= "pressHomeButton"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtLabel"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_action_refresh" />
+
+</RelativeLayout>
+
