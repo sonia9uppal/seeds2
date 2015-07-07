@@ -4,21 +4,11 @@
     android:layout_height="match_parent"
     android:clickable="true">
 
-    <TextView
-        android:id="@+id/learnText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Learn"
-        android:gravity="center_horizontal"
-        android:layout_centerHorizontal="true"
-        android:textSize="50dp" />
-
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:weightSum="1"
         android:layout_height="match_parent"
-        android:layout_below="@id/learnText"
         android:id="@+id/linearLayout">
 
         <ImageButton
@@ -49,4 +39,4 @@
 
     </LinearLayout>
 
-</RelativeLayout><!-- From: file:/Users/sonia9uppal/seeds/NavigationDrawerExample/app/src/main/res/layout/fragment_learn.xml -->
+</RelativeLayout><!-- From: file:/Users/loaner/Desktop/seeds/app/src/main/res/layout/fragment_learn.xml -->

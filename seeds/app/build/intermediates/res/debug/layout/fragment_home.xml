@@ -3,68 +3,93 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView
-        android:id="@+id/txtLabel"
+    <LinearLayout
+        android:id="@+id/userLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#69B5D1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/userIcon"
+            android:layout_alignParentLeft="@+id/username"
+            android:src="@mipmap/avatar"/>
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Welcome, User"
+            android:gravity="center"
+            android:textSize="45dp"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="Home View"
-        android:textSize="16dp" />
+        android:layout_below="@+id/userLayout">
 
-    <TextView
-        android:id="@+id/username"
-        android:layout_width="wrap_content"
+        <Button
+            android:layout_below="@id/userLayout"
+            android:layout_weight="1"
+            android:text="Play"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/round_button"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#FFFFFF"
+            android:id="@+id/play"
+            android:onClick= "pressHomeButton"/>
+
+        <Button
+            android:layout_below="@id/userLayout"
+            android:layout_weight="1"
+            android:text="Learn"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/round_button2"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#FFFFFF"
+            android:layout_toRightOf="@id/play"
+            android:id="@+id/learn"
+            android:onClick= "pressHomeButton"/>
+
+        <Button
+            android:layout_below="@id/userLayout"
+            android:layout_weight="1"
+            android:text="Connect"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/round_button3"
+            android:gravity="center_vertical|center_horizontal"
+            android:layout_toRightOf="@id/learn"
+            android:textColor="#FFFFFF"
+            android:id="@+id/connect"
+            android:onClick= "pressHomeButton"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/videoLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username"
-        android:gravity="center_horizontal"
-        android:layout_centerHorizontal="true"
-        android:textSize="50dp" />
+        android:layout_below="@id/buttonLayout">
 
-    <Button
-        android:layout_below="@id/username"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
-        android:text="Play"
-        android:layout_alignParentLeft="true"
-        android:background="#A1E455"
-        android:textColor="#FFFFFF"
-        android:id="@+id/play"
-        android:onClick= "pressHomeButton"/>
+        <VideoView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/videoView" />
 
-    <Button
-        android:layout_below="@id/username"
-        android:layout_width="wrap_content"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:text="Learn"
-        android:background="#69B5D1"
-        android:textColor="#FFFFFF"
-        android:layout_toRightOf="@id/play"
-        android:id="@+id/learn"
-        android:onClick= "pressHomeButton"/>
+    </RelativeLayout>
 
-    <Button
-        android:layout_below="@id/username"
-        android:layout_width="wrap_content"
-        android:layout_weight="1"
-        android:layout_height="wrap_content"
-        android:text="Connect"
-        android:background="#EF9598"
-        android:layout_alignParentRight="true"
-        android:layout_toRightOf="@id/learn"
-        android:textColor="#FFFFFF"
-        android:id="@+id/connect"
-        android:onClick= "pressHomeButton"/>
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txtLabel"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
-        android:src="@drawable/ic_action_refresh" />
-
-</RelativeLayout>
-
-<!-- From: file:/Users/sonia9uppal/seeds/NavigationDrawerExample/app/src/main/res/layout/fragment_home.xml -->
+</RelativeLayout><!-- From: file:/Users/loaner/Desktop/seeds/app/src/main/res/layout/fragment_home.xml -->
