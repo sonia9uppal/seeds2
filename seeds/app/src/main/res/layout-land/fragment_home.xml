@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/userLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#69B5D1">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/userIcon"
+            android:layout_alignParentLeft="@+id/username"
+            android:src="@mipmap/avatar"/>
+
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Welcome, User"
+            android:gravity="center"
+            android:textSize="45dp"
+            android:textColor="#FFFFFF"
+            />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/videoLayout"
+        android:layout_width="360dp"
+        android:layout_gravity="left"
+        android:layout_height="match_parent"
+        android:layout_below="@id/userLayout"
+        >
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/videoView"
+            android:layout_weight="1"/>
+
+
+    </RelativeLayout>
+
+    <!--<LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </LinearLayout>-->
+
+    <ImageButton
+        android:src="@drawable/connectButton4"
+        android:text="Connect"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/round_button3"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/connect"
+        android:onClick= "pressHomeButton"
+        android:layout_marginLeft="56dp"
+        android:layout_marginStart="56dp"
+        android:layout_below="@+id/userLayout"
+        android:layout_toRightOf="@+id/videoLayout"
+        android:layout_toEndOf="@+id/videoLayout" />
+
+    <ImageButton
+        android:src="@drawable/learnButton6"
+        android:text="Learn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/round_button2"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/learn"
+        android:onClick= "pressHomeButton"
+        android:layout_below="@+id/connect"
+        android:layout_toRightOf="@+id/videoLayout"
+        android:layout_toEndOf="@+id/videoLayout" />
+
+    <ImageButton
+        android:src="@drawable/playButton8"
+        android:text="Play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/play"
+        android:onClick= "pressHomeButton"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/learn"
+        android:layout_toEndOf="@+id/learn" />
+</RelativeLayout>
