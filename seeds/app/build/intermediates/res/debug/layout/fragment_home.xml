@@ -31,65 +31,65 @@
 
     </LinearLayout>
 
+    <RelativeLayout
+        android:id="@+id/videoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="345dp"
+        android:layout_below="@id/userLayout"
+        >
+        <VideoView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/videoView"
+            android:layout_weight="1"/>
+    </RelativeLayout>
+
     <LinearLayout
         android:id="@+id/buttonLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/userLayout">
-
-        <Button
-            android:layout_below="@id/userLayout"
-            android:layout_weight="1"
+        android:layout_below="@+id/videoLayout">
+        <ImageButton
+            android:src="@drawable/playb"
             android:text="Play"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@drawable/round_button"
             android:gravity="center_vertical|center_horizontal"
             android:textColor="#FFFFFF"
             android:id="@+id/play"
-            android:onClick= "pressHomeButton"/>
+            android:onClick= "pressHomeButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
 
-        <Button
-            android:layout_below="@id/userLayout"
-            android:layout_weight="1"
+        <ImageButton
+            android:src="@drawable/connectb"
+            android:text="Connect"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:background="@drawable/round_button3"
+            android:gravity="center_vertical|center_horizontal"
+            android:textColor="#FFFFFF"
+            android:id="@+id/connect"
+            android:onClick= "pressHomeButton"
+            android:layout_alignParentBottom="true"
+            android:layout_toRightOf="@+id/play"
+            android:layout_toEndOf="@+id/play" />
+
+        <ImageButton
+            android:src="@drawable/learnbutton"
             android:text="Learn"
             android:layout_width="120dp"
             android:layout_height="120dp"
             android:background="@drawable/round_button2"
             android:gravity="center_vertical|center_horizontal"
             android:textColor="#FFFFFF"
-            android:layout_toRightOf="@id/play"
             android:id="@+id/learn"
-            android:onClick= "pressHomeButton"/>
-
-        <Button
-            android:layout_below="@id/userLayout"
-            android:layout_weight="1"
-            android:text="Connect"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:background="@drawable/round_button3"
-            android:gravity="center_vertical|center_horizontal"
-            android:layout_toRightOf="@id/learn"
-            android:textColor="#FFFFFF"
-            android:id="@+id/connect"
-            android:onClick= "pressHomeButton"/>
+            android:onClick= "pressHomeButton"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
 
     </LinearLayout>
-
-    <RelativeLayout
-        android:id="@+id/videoLayout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/buttonLayout">
-
-        <VideoView
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_centerInParent="true"
-            android:id="@+id/videoView" />
-
-    </RelativeLayout>
-
-
 </RelativeLayout><!-- From: file:/Users/sonia9uppal/seeds2/seeds/app/src/main/res/layout/fragment_home.xml -->

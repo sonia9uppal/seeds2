@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/videoLayout">
         <ImageButton
-            android:src="@drawable/playButton8"
+            android:src="@drawable/playb"
             android:text="Play"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -64,7 +64,7 @@
             android:layout_alignParentStart="true" />
 
         <ImageButton
-            android:src="@drawable/connectButton4"
+            android:src="@drawable/connectb"
             android:text="Connect"
             android:layout_width="120dp"
             android:layout_height="120dp"
@@ -78,7 +78,7 @@
             android:layout_toEndOf="@+id/play" />
 
         <ImageButton
-            android:src="@drawable/learnButton6"
+            android:src="@drawable/learnbutton"
             android:text="Learn"
             android:layout_width="120dp"
             android:layout_height="120dp"

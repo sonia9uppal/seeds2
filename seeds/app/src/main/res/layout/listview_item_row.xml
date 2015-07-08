@@ -26,7 +26,7 @@
         android:paddingRight="10dp"
         android:text="Folder name here."
         android:textAppearance="?android:attr/textAppearanceListItemSmall"
-        android:textColor="#4b94a6"
+        android:textColor="#4A6E77"
         android:background="@color/background"
 
         />

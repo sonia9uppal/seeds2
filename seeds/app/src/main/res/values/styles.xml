@@ -11,11 +11,11 @@
     <!-- TextView styles -->
     <style name="labelStyle">
         <item name="android:fontFamily">sans-serif</item>
-        <item name="android:textColor">#4b94a6</item>
+        <item name="android:textColor">#4A6E77</item>
     </style>
 
     <style name="aBStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
-        <item name="android:background">#4b94a6</item>
+        <item name="android:background">#4A6E77</item>
         <item name="android:titleTextStyle">@style/titleStyle</item>
     </style>
 

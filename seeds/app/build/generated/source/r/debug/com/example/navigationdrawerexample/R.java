@@ -21,36 +21,39 @@ public final class R {
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_action_connect=0x7f020000;
-        public static final int ic_action_copy=0x7f020001;
-        public static final int ic_action_home=0x7f020002;
-        public static final int ic_action_learn=0x7f020003;
-        public static final int ic_action_play=0x7f020004;
-        public static final int ic_action_refresh=0x7f020005;
-        public static final int ic_action_share=0x7f020006;
-        public static final int ic_drawer=0x7f020007;
-        public static final int ic_launcher=0x7f020008;
-        public static final int java4=0x7f020009;
-        public static final int python2=0x7f02000a;
-        public static final int round_button=0x7f02000b;
-        public static final int round_button2=0x7f02000c;
-        public static final int round_button3=0x7f02000d;
-        public static final int sample_0=0x7f02000e;
-        public static final int sample_1=0x7f02000f;
-        public static final int sample_2=0x7f020010;
-        public static final int sample_3=0x7f020011;
-        public static final int sample_4=0x7f020012;
-        public static final int sample_5=0x7f020013;
-        public static final int sample_6=0x7f020014;
-        public static final int sample_7=0x7f020015;
-        public static final int splash=0x7f020016;
-        public static final int splash3=0x7f020017;
+        public static final int connectb=0x7f020000;
+        public static final int ic_action_connect=0x7f020001;
+        public static final int ic_action_copy=0x7f020002;
+        public static final int ic_action_home=0x7f020003;
+        public static final int ic_action_learn=0x7f020004;
+        public static final int ic_action_play=0x7f020005;
+        public static final int ic_action_refresh=0x7f020006;
+        public static final int ic_action_share=0x7f020007;
+        public static final int ic_drawer=0x7f020008;
+        public static final int ic_launcher=0x7f020009;
+        public static final int java4=0x7f02000a;
+        public static final int learnbutton=0x7f02000b;
+        public static final int playb=0x7f02000c;
+        public static final int python2=0x7f02000d;
+        public static final int round_button=0x7f02000e;
+        public static final int round_button2=0x7f02000f;
+        public static final int round_button3=0x7f020010;
+        public static final int sample_0=0x7f020011;
+        public static final int sample_1=0x7f020012;
+        public static final int sample_2=0x7f020013;
+        public static final int sample_3=0x7f020014;
+        public static final int sample_4=0x7f020015;
+        public static final int sample_5=0x7f020016;
+        public static final int sample_6=0x7f020017;
+        public static final int sample_7=0x7f020018;
+        public static final int splash=0x7f020019;
+        public static final int splash3=0x7f02001a;
     }
     public static final class id {
         public static final int ScrollView01=0x7f0b0006;
         public static final int action_settings=0x7f0b0021;
-        public static final int buttonLayout=0x7f0b0018;
-        public static final int connect=0x7f0b001b;
+        public static final int buttonLayout=0x7f0b001a;
+        public static final int connect=0x7f0b001c;
         public static final int content_frame=0x7f0b0004;
         public static final int drawer_layout=0x7f0b0003;
         public static final int imageButton=0x7f0b0008;
@@ -64,13 +67,13 @@ public final class R {
         public static final int imageButton9=0x7f0b0013;
         public static final int imageViewIcon=0x7f0b001e;
         public static final int javaButton=0x7f0b0001;
-        public static final int learn=0x7f0b001a;
+        public static final int learn=0x7f0b001d;
         public static final int left_drawer=0x7f0b0005;
         public static final int linearLayout=0x7f0b0000;
         public static final int linearLayout2=0x7f0b000a;
         public static final int linearLayout3=0x7f0b000d;
         public static final int linearLayout4=0x7f0b0010;
-        public static final int play=0x7f0b0019;
+        public static final int play=0x7f0b001b;
         public static final int playText=0x7f0b0007;
         public static final int progressBar1=0x7f0b0020;
         public static final int pythonButton=0x7f0b0002;
@@ -79,8 +82,8 @@ public final class R {
         public static final int userIcon=0x7f0b0016;
         public static final int userLayout=0x7f0b0015;
         public static final int username=0x7f0b0017;
-        public static final int videoLayout=0x7f0b001c;
-        public static final int videoView=0x7f0b001d;
+        public static final int videoLayout=0x7f0b0018;
+        public static final int videoView=0x7f0b0019;
     }
     public static final class layout {
         public static final int activity_connect=0x7f040000;
