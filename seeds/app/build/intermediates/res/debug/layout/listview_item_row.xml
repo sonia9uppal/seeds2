@@ -26,9 +26,9 @@
         android:paddingRight="10dp"
         android:text="Folder name here."
         android:textAppearance="?android:attr/textAppearanceListItemSmall"
-        android:textColor="#4b94a6"
+        android:textColor="#4A6E77"
         android:background="@color/background"
 
         />
 
-</RelativeLayout><!-- From: file:/Users/sonia9uppal/seeds2/seeds/app/src/main/res/layout/listview_item_row.xml -->
+</RelativeLayout><!-- From: file:/C:/Users/Payal/Desktop/seeds2/seeds/app/src/main/res/layout/listview_item_row.xml -->

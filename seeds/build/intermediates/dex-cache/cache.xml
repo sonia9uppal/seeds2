@@ -2,11 +2,11 @@
 <items version="2" >
 
     <item
-        jar="/Users/sonia9uppal/Desktop/Random/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jar="C:\Users\Payal\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="/Users/sonia9uppal/seeds2/seeds/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-757c1851755016ae73595593134457a3c3f958bc.jar" />
+        <dex dex="C:\Users\Payal\Desktop\seeds2\seeds\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-a3f62e29ed2399996ee93a8e9cd6157d70009caa.jar" />
     </item>
 
 </items>
