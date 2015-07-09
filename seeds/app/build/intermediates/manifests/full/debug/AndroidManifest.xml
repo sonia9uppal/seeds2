@@ -51,6 +51,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.navigationdrawerexample.MainActivity" />
         </activity>
+        <activity
+            android:name="com.example.navigationdrawerexample.ConnectActivity"
+            android:label="@string/title_activity_connect" >
+        </activity>
     </application>
 
 </manifest>
