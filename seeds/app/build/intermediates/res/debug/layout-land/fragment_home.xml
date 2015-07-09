@@ -96,4 +96,4 @@
         android:layout_alignParentBottom="true"
         android:layout_toRightOf="@+id/learn"
         android:layout_toEndOf="@+id/learn" />
-</RelativeLayout><!-- From: file:/C:/Users/Payal/Desktop/seeds2/seeds/app/src/main/res/layout-land/fragment_home.xml -->
+</RelativeLayout><!-- From: file:/Users/loaner/Desktop/seeds2/seeds/app/src/main/res/layout-land/fragment_home.xml -->

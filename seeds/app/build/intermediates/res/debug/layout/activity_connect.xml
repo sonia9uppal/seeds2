@@ -18,8 +18,7 @@
         android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="76dp"
-        android:background="#EF9598"
-        android:onClick="switchScreen"/>
+        android:background="#EF9598" />
 
     <Button
         android:layout_width="wrap_content"
@@ -41,4 +40,4 @@
         android:background="#69D5B1"/>
 
 </RelativeLayout>
-<!-- From: file:/C:/Users/Payal/Desktop/seeds2/seeds/app/src/main/res/layout/activity_connect.xml -->
+<!-- From: file:/Users/loaner/Desktop/seeds2/seeds/app/src/main/res/layout/activity_connect.xml -->

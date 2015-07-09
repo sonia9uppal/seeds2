@@ -90,17 +90,16 @@ public final class R {
         public static final int videoView=0x7f0b001d;
     }
     public static final class layout {
-        public static final int activity_calendar=0x7f040000;
-        public static final int activity_connect=0x7f040001;
-        public static final int activity_learn=0x7f040002;
-        public static final int activity_main=0x7f040003;
-        public static final int activity_play=0x7f040004;
-        public static final int fragment_connect=0x7f040005;
-        public static final int fragment_home=0x7f040006;
-        public static final int fragment_learn=0x7f040007;
-        public static final int fragment_play=0x7f040008;
-        public static final int listview_item_row=0x7f040009;
-        public static final int splashscreen=0x7f04000a;
+        public static final int activity_connect=0x7f040000;
+        public static final int activity_learn=0x7f040001;
+        public static final int activity_main=0x7f040002;
+        public static final int activity_play=0x7f040003;
+        public static final int fragment_connect=0x7f040004;
+        public static final int fragment_home=0x7f040005;
+        public static final int fragment_learn=0x7f040006;
+        public static final int fragment_play=0x7f040007;
+        public static final int listview_item_row=0x7f040008;
+        public static final int splashscreen=0x7f040009;
     }
     public static final class menu {
         public static final int main=0x7f0a0000;

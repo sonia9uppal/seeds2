@@ -8,13 +8,15 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
 
-    <android:uses-permission
+    <uses-permission
         android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
         android:name="android.permission.READ_EXTERNAL_STORAGE"
         android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
 
     <application
         android:allowBackup="true"
@@ -48,14 +50,6 @@
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.navigationdrawerexample.MainActivity" />
-        </activity>
-        <activity
-            android:name="com.example.navigationdrawerexample.ConnectActivity"
-            android:label="@string/title_activity_connect" >
-        </activity>
-        <activity
-            android:name="com.example.navigationdrawerexample.CalendarActivity"
-            android:label="@string/title_activity_calendar" >
         </activity>
     </application>
 

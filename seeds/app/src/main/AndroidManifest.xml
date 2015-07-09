@@ -52,14 +52,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.navigationdrawerexample.MainActivity" />
         </activity>
-        <activity
-            android:name=".ConnectActivity"
-            android:label="@string/title_activity_connect" >
-        </activity>
-        <activity
-            android:name=".CalendarActivity"
-            android:label="@string/title_activity_calendar" >
-        </activity>
     </application>
 
 </manifest>
