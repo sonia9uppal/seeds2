@@ -192,6 +192,7 @@ public class MainActivity extends Activity {
 
     public void pressHomeButton(View view) {
         Intent intent = new Intent(this, HomeActivity.class);
+
         switch (view.getId()) {
             case R.id.play:
                 MESSAGE = "play";
@@ -202,7 +203,27 @@ public class MainActivity extends Activity {
             case R.id.connect:
                 MESSAGE = "connect";
                 break;
+
         }
+
         startActivity(intent);
+
+
+    }
+    public void pressConnectButton(View view) {
+        Intent other = new Intent(this, ConnectActivity.class);
+        switch (view.getId()) {
+            case R.id.location:
+                MESSAGE = "location";
+                break;
+            case R.id.mentoring:
+                MESSAGE = "mentoring";
+                break;
+            case R.id.calendar:
+                MESSAGE = "calendar";
+                break;
+        }
+        startActivity(other);
+
     }
 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/Users/sonia9uppal/seeds2/seeds/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/loaner/Desktop/seeds2%204/seeds/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="navigation_drawer_items_array">
         <item>Home</item>
@@ -8,24 +8,26 @@
         <item>Learn</item>
         <item>Connect</item>
     </string-array>
-    <!-- From: file:/Users/sonia9uppal/seeds2/seeds/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/Users/loaner/Desktop/seeds2%204/seeds/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <color name="background">#f1ebe4</color>
-    <!-- From: file:/Users/sonia9uppal/seeds2/seeds/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/Users/loaner/Desktop/seeds2%204/seeds/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <!-- From: file:/Users/sonia9uppal/seeds2/seeds/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/Users/loaner/Desktop/seeds2%204/seeds/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="app_name">seeds</string>
     <string name="drawer_close">Close navigation drawer</string>
     <string name="drawer_open">Open navigation drawer</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_world">Hello world!</string>
     <string name="title_activity_calendar">CalendarActivity</string>
     <string name="title_activity_connect">ConnectActivity</string>
     <string name="title_activity_home">HomeActivity</string>
-    <!-- From: file:/Users/sonia9uppal/seeds2/seeds/app/src/main/res/values/styles.xml -->
+    <string name="title_activity_mentor">MentorActivity</string>
+    <!-- From: file:/Users/loaner/Desktop/seeds2%204/seeds/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="android:style/Theme.Holo.Light">
 

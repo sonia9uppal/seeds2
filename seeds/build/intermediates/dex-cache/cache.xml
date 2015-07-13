@@ -2,11 +2,25 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Payal\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jar="/Users/sonia9uppal/Downloads/seeds2 2/seeds/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
-        <dex dex="C:\Users\Payal\Desktop\seeds2\seeds\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-a3f62e29ed2399996ee93a8e9cd6157d70009caa.jar" />
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/sonia9uppal/Downloads/seeds2 2/seeds/app/build/intermediates/pre-dexed/debug/classes-051bf12196c19be132afe1899f070c2107e71419.jar" />
+    </item>
+    <item
+        jar="/Users/sonia9uppal/Downloads/seeds2 2/seeds/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/sonia9uppal/Downloads/seeds2 2/seeds/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-d87bb6906d39a3c81ef7a4f9934786b6604d6f3e.jar" />
+    </item>
+    <item
+        jar="/Users/sonia9uppal/Desktop/Random/adt-bundle-mac-x86_64-20131030/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/sonia9uppal/Downloads/seeds2 2/seeds/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-dc02db8093551d78ea2eaea5d5bc27ea7a208bd2.jar" />
     </item>
 
 </items>

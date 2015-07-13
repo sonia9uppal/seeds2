@@ -17,6 +17,7 @@
         android:maxSdkVersion="18" />
     <uses-permission android:name="android.permission.READ_CALENDAR" />
     <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -53,7 +54,19 @@
         </activity>
         <activity
             android:name=".ConnectActivity"
-            android:label="@string/title_activity_connect" >
+            android:label="@string/title_activity_connect"
+            android:parentActivityName=".HomeActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationdrawerexample.HomeActivity"/>
+        </activity>
+        <activity
+            android:name=".MentorActivity"
+            android:label="@string/title_activity_mentor"
+            android:parentActivityName=".ConnectActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.navigationdrawerexample.ConnectActivity"/>
         </activity>
     </application>
 

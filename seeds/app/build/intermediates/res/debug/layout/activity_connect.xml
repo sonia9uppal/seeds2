@@ -6,54 +6,62 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".ConnectActivity"
     >
 
+
+
     <LinearLayout
         android:id="@+id/buttonLayout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/videoLayout">
-        <ImageButton
-
-            android:text="Calendar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/round_button"
-            android:gravity="center_vertical|center_horizontal"
-            android:textColor="#FFFFFF"
-            android:id="@+id/calendar"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
 
         <ImageButton
+            android:src="@drawable/connectcal5"
 
             android:text="Location"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@drawable/round_button3"
             android:gravity="center_vertical|center_horizontal"
             android:textColor="#FFFFFF"
             android:id="@+id/location"
-
+            android:onClick="pressConnectButton"
             android:layout_alignParentBottom="true"
             android:layout_toRightOf="@+id/calendar"
             android:layout_toEndOf="@+id/calendar" />
 
-        <ImageButton
-
-            android:text="Mentoring"
-            android:layout_width="120dp"
-            android:layout_height="120dp"
-            android:background="@drawable/round_button2"
-            android:gravity="center_vertical|center_horizontal"
-            android:textColor="#FFFFFF"
-            android:id="@+id/mentoring"
-
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
-
     </LinearLayout>
+
+    <ImageButton
+        android:src="@drawable/connectlocator3"
+        android:text="Calendar"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:background="@drawable/round_button"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/calendar"
+        android:layout_centerVertical="true"
+        android:layout_alignRight="@+id/buttonLayout"
+        android:layout_alignEnd="@+id/buttonLayout"
+        android:onClick="pressConnectButton"/>
+
+    <ImageButton
+        android:src="@drawable/connectmentor2"
+
+        android:text="Mentoring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_button2"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#FFFFFF"
+        android:id="@+id/mentoring"
+        android:onClick="pressConnectButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
 
 </RelativeLayout>
 
-<!-- From: file:/Users/sonia9uppal/seeds2/seeds/app/src/main/res/layout/activity_connect.xml -->
+<!-- From: file:/Users/loaner/Desktop/seeds2%204/seeds/app/src/main/res/layout/activity_connect.xml -->

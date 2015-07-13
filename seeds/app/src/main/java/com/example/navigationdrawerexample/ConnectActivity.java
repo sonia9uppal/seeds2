@@ -1,9 +1,11 @@
 package com.example.navigationdrawerexample;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class ConnectActivity extends Activity {
@@ -12,6 +14,9 @@ public class ConnectActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_connect);
+        if(HomeActivity.MESSAGE.equals("mentoring")){setContentView(R.layout.activity_mentor);}
+        else if(HomeActivity.MESSAGE.equals("calendar")){setContentView(R.layout.fragment_calendar);}
+        else if(HomeActivity.MESSAGE.equals("location")){setContentView(R.layout.fragment_location);}
     }
 
     @Override
@@ -35,4 +40,6 @@ public class ConnectActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }

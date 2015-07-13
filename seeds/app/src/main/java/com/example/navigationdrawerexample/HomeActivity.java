@@ -5,9 +5,12 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class HomeActivity extends Activity {
+
+    public static String MESSAGE = "connect";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         Intent intent = getIntent();
@@ -38,4 +41,21 @@ public class HomeActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public void pressConnectButton(View view) {
+        Intent other = new Intent(this, ConnectActivity.class);
+        switch (view.getId()) {
+            case R.id.location:
+                MESSAGE = "location";
+                break;
+            case R.id.mentoring:
+                MESSAGE = "mentoring";
+                break;
+            case R.id.calendar:
+                MESSAGE = "calendar";
+                break;
+        }
+
+    }
+
 }
